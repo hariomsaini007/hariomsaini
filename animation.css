@@ -10,12 +10,15 @@
 p[data-scroll="in"],h2[data-scroll="in"],img[data-scroll="in"]{
     -webkit-animation-name: slideInUp;
     animation-name: slideInUp;
+    opacity: 1;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
-
+p,h2,img{
+    opacity: 0;
+}
 .slideInLeft {
     -webkit-animation-name: slideInLeft;
     animation-name: slideInLeft;
